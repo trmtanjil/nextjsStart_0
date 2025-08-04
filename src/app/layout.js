@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
      <div>
       <Navbar></Navbar>
      </div>
-     <main className=" h-screen  max-h-[500px] flex items-center justify-center min-h-screen">
+     <main className=" h-screen   ">
          {children}
      </main>
      <footer className="mx-auto text-center">
